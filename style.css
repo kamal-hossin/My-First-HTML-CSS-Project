@@ -1,0 +1,74 @@
+body {
+  background: #0f1113;
+  color: #e6eef2;
+  font-family: 'Inter', sans-serif;
+}
+
+.logo-badge {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg,#0bd3d9,#3de6c7);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #022;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-weight: 800;
+  color: #0bd3d9;
+}
+
+.photo-card img {
+  border-radius: 12px;
+  width: 250px;
+}
+
+.btn-accent {
+  background: linear-gradient(90deg,#0bd3d9,#3de6c7);
+  color: #042328;
+  border: none;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+  background: #1a1b1e;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  
+}
+.project-card img {
+ width: 100%;
+}
+
+.chip {
+  display: inline-block;
+  background: rgba(255,255,255,0.08);
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin-right: 6px;
+  font-size: 13px;
+  color: #9aa3a8;
+}
+
+.contact-card {
+  background: #1a1b1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, textarea {
+  background: #0f1113 !important;
+  color: #e6eef2 !important;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+input:focus, textarea:focus {
+  border-color: #0bd3d9 !important;
+  box-shadow: none !important;
+}
+
